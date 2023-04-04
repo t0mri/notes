@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Gilroy;
+    color: rgb(124, 76, 13);
+    outline: transparent;
+}
+#root {
+    padding: 5rem 0 0 2rem;
+}
+h1 {
+    margin-bottom: 2rem;
+}
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(22rem, 25%));
+}
+.card {
+    background-color: rgb(251, 245, 236);
+    /* width: 22rem; */
+    /* aspect-ratio: 1.5; */
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 1rem 1rem 0 0;
+}
+/* textarea,
+input {
+    border: transparent;
+    background-color: transparent;
+    width: 100%;
+    height: fit-content;
+    resize: vertical;
+} */
+.title {
+    white-space: nowrap;
+    font-size: 1.2rem;
+    font-weight: bold;
+    resize: none;
+    overflow: scroll;
+    /* text-overflow: ellipsis; */
+    padding: 1rem 0;
+}
+.title::-webkit-scrollbar {
+    height: 0;
+}
+.content {
+    background-color: antiquewhite;
+    margin: 0 0 1rem 0;
+    border-radius: 1rem;
+    padding: 1rem;
+    font-size: 1rem;
+}
+button {
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 2vmin;
+    border: none;
+    background-color: antiquewhite;
+    display: grid;
+    margin: 0 0 1rem auto;
+}
+button:active {
+    background-color: rgb(255, 232, 202);
+}
+.addnew {
+    margin: 2rem auto;
+    aspect-ratio: 1;
+    height: 5rem;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    font-weight: 600;
+    font-size: 2rem;
+}
