@@ -1,11 +1,16 @@
+@font-face {
+    font-family: gil;
+    src: url("/Gilroy-Light.otf");
+}
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Gilroy;
+    font-family: gil;
     color: rgb(124, 76, 13);
     outline: transparent;
 }
+
 #root {
     padding: 5rem 0 0 2rem;
 }
